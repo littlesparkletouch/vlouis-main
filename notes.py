@@ -21,3 +21,15 @@ whatType(3.0)
 whatType(True)
 whatType("polyana")
 whatType('p')
+
+#Create a variable named message
+message= """this is a multiline message to my bestie."""
+
+print(message)
+
+#test inputs to print and see how they print
+print(42000)
+#everytime theres a comma between values, it will undestand as a dufferent parameter input
+print(42,000,"poly",3,"chem","computer")
+print(42.000)
+
