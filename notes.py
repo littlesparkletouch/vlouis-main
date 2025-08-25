@@ -33,3 +33,25 @@ print(42000)
 print(42,000,"poly",3,"chem","computer")
 print(42.000)
 
+name="polyana"
+newName="polyana"
+name=newName
+newName=name
+
+print(name)
+print(newName)
+
+classOf2026 = ["Student 1","Student 2"]
+seniors = "not a good variable name...why?"
+
+#MLA formatting for GEEKS
+#Global variable for things that cannot change
+global JANUARY= "January
+# In nameing variables, the variables day and Day are NOT the same
+#we want to use lowercase as mich as possible
+#for Python day_of_the_week
+#in Java dayOftheWeek
+
+print(2+2)
+print("hello")
+print(len("hello")
