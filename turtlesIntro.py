@@ -1,9 +1,5 @@
 import turtle
 
-# Create a turtle screen and turtle object
-screen = turtle.Screen()
-screen.setup(width=800, height=600)
-
 # Create a turtle
 t = turtle.Turtle()
 t.speed(0)
