@@ -1,17 +1,16 @@
 import turtle
 
-# Create a turtle
-t = turtle.Turtle()
-t.speed(0)
+# Create a screen and a turtle object
+#screen = turtle.Screen()
+#screen.title("Turtle Example in Python")
 
-# Draw a simple shape
-t.color("blue")
-for _ in range(36):
-    t.forward(100)
-    t.right(170)
+# Create a turtle instance
+my_turtle = turtle.Turtle()
 
+# Draw a square
+for _ in range(4):
+    my_turtle.forward(100)  # Move forward by 100 units
+    my_turtle.right(90)     # Turn right by 90 degrees
 
-# Close the turtle screen
-#screen.bye()
-
-print("Drawing saved as 'turtle_drawing.svg'.")
+# Keep the window open until clicked
+#screen.mainloop()
