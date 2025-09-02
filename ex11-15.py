@@ -43,14 +43,14 @@ Exercise 10:  Arithmetic
 Create a program that reads two integers, a and b, from the user.  Your program
 should compute and display:
 - the sum of a and b
-- the difference when b is subtraced from a
+- the difference when b is subtracted from a
 - the product of a and b
 - the quotient when a is divided by b
 - the remainder when a is divided by b
 - the result of log10 a
 - the result of a to the power of b
 
-Hint:  you will problably find the log10 function in the math module helpful
+Hint:  you will probably find the log10 function in the math module helpful
 for computing the second last item in the list.
 """
 
