@@ -21,3 +21,5 @@ whatType(3.0)
 whatType(True)
 whatType("polyana")
 whatType('p')
+
+print("these notes")
