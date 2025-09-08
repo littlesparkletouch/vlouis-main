@@ -6,16 +6,16 @@ address formatted in the manner that you would usually see it
 on the outside of an envelope.  Your program does not need to 
 read any input from the user.  (9 lines)
 """
-print("Victoria Louis
-      8630 S Cove Dr
-      Maineville, OH 45039")
+print("\nVictoria Louis \n8630 S Cove Dr \nMaineville, OH 45039")
 """
 Exercise 2:  Hello
 Write a program that asks the user to enter his or her name.  
 The program should respond with a message that says hello to 
 the user, using his or her name.  (9 lines)
 """
-
+print("Please enter your name: ")
+name=input()
+print("Hello", name,"!")
 """
 Exercise 3:  Area of a Room
 Write a program that asks the user to enter the width and 
@@ -26,7 +26,12 @@ numbers.  Include units in your prompt and output message;
 either feet or meters, depending on which unit you are more 
 comfortable working with.  (13 lines)
 """
-
+print("Please enter the width of the room:")
+width=input(int)
+print("Please enter the length of the room:")
+length=input(int)
+area=width*length
+print=(area " square feet")
 """
 Exercise 4:  Area of a Field
 Create a program that reads the length and width of a 
@@ -34,7 +39,13 @@ farmer’s field from the user in feet.  Display the
 area of the field in acres.  
 Hint: There are 43,560 square feet in an acre
 """
-
+print("Please enter the width of the field in feet:")
+width=input(int)
+print("Please enter the length of the field in feet:")
+length=input(int)
+area=width*length
+acres=area/43560
+print=(acres " acres")
 """
 Exercise 5:  Bottle Deposits
 In many jurisdictions a small deposit is added to drink 
@@ -48,6 +59,7 @@ and displaying the refund that will be received for returning
 those containers.  Format the output so that it includes a dollar 
 sign and always displays exactly two decimal places.  (15 lines)
 """
+()
 
 
 def print_hi(name):
