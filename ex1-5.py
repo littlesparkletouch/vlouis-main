@@ -61,10 +61,20 @@ sign and always displays exactly two decimal places.  (15 lines)
 """
 ()
 
+def bottleDeposits():
+    # reads the number of bottles
+    numOneLiterBottle = int(input("Number of 1L bottles: "))
+    numMoreOneLiterBottle = int(input("Number of more than 1L bottles: "))
+    refund = numMoreOneLiterBottle*0.25+numOneLiterBottle*0.1
+    refund = round(refund, 2)
+    print("Your refund will be: $", "{:.2f}".format(refund))
+    # adding everything greater than 1
 
-def print_hi(name):
-    print(f"Hi, {name}")
 
+    # To ensure we have two decimal places
+    # number_two_decimal = "{:.2f}".format(number_string)
+    # print(number_two_decimal)
 
-if __name__ == "__main__":
-    print_hi("Netbeans")
+bottleDeposits()
+#Testing Suite
+#areaRoom()
