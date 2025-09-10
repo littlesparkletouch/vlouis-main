@@ -7,10 +7,13 @@ research skills to determine how to convert from MPG to L/100km.
 Then create a program that reads a value from the user in American units
 and display the equivalent fuel efficiency in Canadian units.
 """
-
+print("Enter MPG:")
+MPG(input)
+L/100km(MPG*235.215)
+print("L/100km =" L/100km)
 """
 Exercise 12:  Distance Between Two Points on Earth
-The surface of the Earth is curved, and teh distance between degrees
+The surface of the Earth is curved, and the distance between degrees
 of longitude varies with latitude.  As a result, finding the distance
 between two points on the surface of the Earth is more complicated than 
 simply using the Pythagorean theorem.
@@ -34,7 +37,7 @@ need to convert the user's input from degrees to radians before computing
 the distance with the formula discussed previously.  The math module 
 contains a function named RADIANS which converts from degrees to radians.
 """
-
+print("Enter latitude:"
 """
 Exercise 13: Making Change
 Consider the software that runs on a self-checkout machine.  One task that
@@ -54,6 +57,9 @@ The two dollar coin, referred to as a toonie, was introduced 9 years later.
 It's name is derived from the combination of the number two
 and the name of the loonie.
 """
+print("Number of cents:" cents)
+cents(input)
+
 
 """
 Exercise 14:  Height Units
