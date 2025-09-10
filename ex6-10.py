@@ -8,8 +8,8 @@ meal amount (without tax).  The output from your program should include
 both the tax and the tip.  Format the output so that all of the values
 are displayed using two decimal places.  (17 lines)
 """
-print("Cost of meal:")
-meal(input)
+print("Cost of meal:" )
+meal=input()
 NoTaxWithTip(meal*0.18+meal)
 WithTaxAndTip(NoTaxWithTip+meal*0.078)
 print("Final cost:" WithTaxAndTip)
@@ -22,8 +22,8 @@ first n positive integers can be computed using the formula:
 sum = (n*(n+1))/2
 (12 lines)
 """
-print("positive integer:" integer)
-integer(input)
+print("positive integer:" )
+integer=input()
 Sum((n*(n+1))/2))
 print(Sum)
 """
@@ -35,7 +35,7 @@ compute and display the total weight of the order.  (15 lines)
 
 """
 print("Enter number of gizmos:" gizmos)
-gizmos(input)
+gizmos=input()
 weight(gizmos*112)
 print(weight "grams")
 """
@@ -49,7 +49,7 @@ your program should compute and display the amount in the savings account after
 places.  (19 lines)
 """
 print("Amount deposited:" OrigAmount)
-OrigAmount(input)
+OrigAmount=input()
 1YearAmount(OrigAmount*1.04)
 2YearAmount(1YearAmount*1.04)
 3YearAmount(2YearAmount*1.04)
@@ -71,10 +71,10 @@ should compute and display:
 Hint:  you will probably find the log10 function in the math module helpful
 for computing the second last item in the list.
 """
-print("Enter a:" a)
-print("Enter b:" b)
-a(input)
-b(input)
+print("Enter a:" )
+print("Enter b:" )
+a=input()
+b=input()
 sum(a+b)
 print("Sum:" sum)
 difference(b-a)
