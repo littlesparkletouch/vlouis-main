@@ -67,8 +67,9 @@ The two dollar coin, referred to as a toonie, was introduced 9 years later.
 It's name is derived from the combination of the number two
 and the name of the loonie.
 """
-print("Number of cents:" cents)
 cents(input)
+print("Number of cents:" cents)
+change
 
 
 """
